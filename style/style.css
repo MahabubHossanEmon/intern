@@ -4,6 +4,7 @@ body{
     margin: auto;
     
 }
+/* index page style */
 .container{
     position: relative;
     text-align: center;
@@ -56,17 +57,7 @@ body{
   left: 100px;
   width: 40%;
 }
-.image4{
-    max-width: 599px;
-   
-}
-.image5{
-    position: absolute;
-    left: 95px;
-    height: auto;
-    max-width:599px;
-    
-}
+
 span{
     color: #66d981;
 }
@@ -101,6 +92,20 @@ p{
 }
 .icon{
     margin-left: 60px;
+}
+/* index page end */
+
+/* page 2  start */
+.image4{
+    max-width: 599px;
+   
+}
+.image5{
+    position: absolute;
+    left: 95px;
+    height: auto;
+    max-width:599px;
+    
 }
 .yogurt{
     margin: 0;
@@ -158,8 +163,11 @@ h4{
     font-weight: 700;
     padding: 5px;
 }
+/* page 2 end */
 
 
+
+/* responsive */
 @media screen and (max-width: 599px) {
     .container {
         position: relative;
