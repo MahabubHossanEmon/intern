@@ -17,7 +17,7 @@ body{
     top:0;
     left: 0;
     padding: 10px;
-    color: white; /* Adjust color as needed */
+    color: white;
     z-index: 1;
 
 }
@@ -35,14 +35,14 @@ body{
 }
 .image1{
     height: auto;
-    /* max-width:470px; */
+   
     max-width: 599px;
-    /* transform: rotate(10deg); */
+    
     
 }
 .image2{
     position: absolute;
-    /* left:30px; */
+   
     left: 5px;
     height: auto;
     max-width:599px;
@@ -51,7 +51,7 @@ body{
 }
 .image3{
     position: absolute;
-    /* bottom: 100px; */
+    
     top: 130px;
   left: 100px;
   width: 40%;
@@ -134,7 +134,7 @@ p{
    margin-right: 20px;
 }
 .top-img:last-child {
-    margin-right: 0; /* Remove margin from last image */
+    margin-right: 0; 
 }
 .top-img img{
     max-width: 100%;
@@ -275,7 +275,7 @@ h4{
         margin-right: 20px;
     }
     .top-img:last-child {
-        margin-right: 0; /* Remove margin from last image */
+        margin-right: 0;
     }
     .top-img img {
         max-width: 100%;
